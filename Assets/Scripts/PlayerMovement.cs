@@ -35,6 +35,7 @@ public class Player : MonoBehaviour
     private void Awake()
     {
         playerMovement = new PlayerInputActions();
+        this.transform.position = new Vector3(0f, 0f, 0f);
     }
 
     private void OnEnable()
